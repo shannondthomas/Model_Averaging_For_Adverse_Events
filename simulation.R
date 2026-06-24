@@ -1,9 +1,9 @@
 #################################################################################
-# TITLE: survival_BMAandstacking_simulation.R
+# TITLE: simulation.R
 #
 # PURPOSE: simulate AE data, run BMA and stacking, and plot model results
 #
-# OUTPUT: plot with hazard/probability curves wrt and weights in subtitle
+# OUTPUT: .rds files with all simulation output
 #
 # SECTIONS: Section 0 - load packages
 #           Section 1 - risk distributions
@@ -13,7 +13,7 @@
 #
 # AUTHOR: Shannon Thomas
 # DATE CREATED: MAR 27, 2026
-# NOTES: took 28 hours to run
+# NOTES: takes days to run
 #################################################################################
 
 ##########################################################
